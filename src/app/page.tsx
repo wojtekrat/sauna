@@ -24,7 +24,7 @@ export default async function Post(): Promise<JSX.Element> {
   const posts: PostInterface[] = await getPost();
 
   return (
-    <div className='w-[70%] m-auto '>
+    <div className='w-[80%] m-auto '>
         <PostsSection posts={posts} />
     </div>
   );

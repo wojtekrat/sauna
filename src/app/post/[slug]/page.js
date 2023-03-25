@@ -22,6 +22,14 @@ export default async function PostPage ({ params }) {
   }
   const post = await getSpecificPost()
 
+  if (!post) {
+    return (
+      <div className='w-[100%] flex justify-center items-center'>
+        <p className='text-[40px]'>Post not found</p>
+      </div>
+    )
+  }
+
   return (
     <div>
       <PostCardDetails posts={post} />
