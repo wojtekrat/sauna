@@ -33,5 +33,10 @@ export default {
             title: 'Hashtags',
             type: 'string'
         },
+        {
+            name: 'slug',
+            title: 'Slug',
+            type: 'slug'      
+        },
     ]
 }

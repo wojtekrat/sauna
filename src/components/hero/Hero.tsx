@@ -1,9 +1,9 @@
-import React from 'react'
-import Navbar from '../navbar/Navbar'
-import Searchbar from '../searchbar/Searchbar'
-import { urlFor } from '@/lib/client'
-import Image from 'next/image'
-import { BackgroundImages } from '@/app/layout'
+'use client'
+import React, { useState, useEffect } from 'react';
+import Navbar from '../navbar/Navbar';
+import Searchbar from '../searchbar/Searchbar';
+import { urlFor } from '@/lib/client';
+import Image from 'next/image';
 
 interface Props {
   background: {
@@ -13,6 +13,16 @@ interface Props {
 }
 
 const Hero = ({ background }: Props) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentIndex((currentIndex + 1) % background.length);
+    }, 10000);
+
+    return () => clearInterval(intervalId);
+  }, [background.length, currentIndex]);
+
   if (!Array.isArray(background)) {
     // Handle case where background is not an array
     return null;
@@ -20,23 +30,20 @@ const Hero = ({ background }: Props) => {
 
   return (
     <div>
-      <Navbar />
-      <div style={{ display: 'flex' }}>
-        {background.map((b) => (
-          <div key={b._id}>
-            <Image
-              src={urlFor(b.image).url()}
-              alt="bg"
-              width={200}
-              height={200}
-              priority
-            />
-          </div>
-        ))}
-      </div>
-      <Searchbar />
+      <div className='relative w-[100%] h-[400px] sm:h-[100vh]'>
+        <div className='absolute, top-0, left-0'>
+          <Image
+            src={urlFor(background[currentIndex].image).url()}
+            alt="bg"
+            fill
+            priority
+          />
+        </div>
+    </div>
+    <Searchbar />
+    <Navbar />
     </div>
   );
-}
+};
 
 export default Hero;

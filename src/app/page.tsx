@@ -9,6 +9,9 @@ export interface PostInterface {
   text: string;
   image: string;
   hashtags: string;
+  slug: {
+    current: string;
+  };
 };
 
 
