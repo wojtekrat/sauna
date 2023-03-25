@@ -1,5 +1,5 @@
-import {defineConfig, isDev} from 'sanity'
-import {visionTool} from '@sanity/vision'
+import {defineConfig, isDev} from 'sanity/lib/exports'
+import {visionTool} from '../.././sauna/oldlace-caribou/node_modules/@sanity/vision'
 import {deskTool} from 'sanity/desk'
 import {schemaTypes} from './schemas'
 import {getStartedPlugin} from './plugins/sanity-plugin-tutorial'
