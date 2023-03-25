@@ -1,13 +1,9 @@
-import React, { FC } from 'react'
-import { PostInterface } from '@/app/page'
+import React from 'react'
 import Image from 'next/image';
 import { urlFor } from '@/lib/client';
 
-interface PostsSectionProps {
-    posts?: PostInterface;
-  }
 
-  const PostCardDetails: FC<PostsSectionProps> = ({ posts: { image, title, header, text, hashtags } }) => {
+  const PostCardDetails = ({ posts: { image, title, header, text, hashtags }}) => {
     const slicedText = text.split('@');
     const tags = hashtags.split(',')
   return (
