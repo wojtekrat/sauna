@@ -29,24 +29,24 @@ const Hero = ({ background }: Props) => {
   }
 
   return (
-    <div className="relative w-full h-400 sm:h-screen">
-      <div className="absolute top-0 left-0 w-full h-full">
-        {background.map((item, index) => (
-          <Image
-            key={item._id}
-            src={urlFor(item.image).url()}
-            alt="bg"
-            layout="fill"
-            objectFit="cover"
-            objectPosition="center"
-            className={`absolute top-0 left-0 transition-opacity duration-1000 ${
-              index === currentIndex ? 'opacity-100' : 'opacity-0'
-            }`}
-          />
-        ))}
+    <div>
+      <div className="relative w-full h-[400px] sm:h-screen">
+        <div className="absolute top-0 left-0 w-full h-full">
+          {background.map((item, index) => (
+            <Image
+              key={item._id}
+              src={urlFor(item.image).url()}
+              alt="bg"
+              fill
+              className={`absolute top-0 left-0 transition-opacity duration-1000 ${
+                index === currentIndex ? 'opacity-100' : 'opacity-0'
+              }`}
+            />
+          ))}
+        </div>
       </div>
-      <Searchbar />
       <Navbar />
+      <Searchbar />
     </div>
   );
 };

@@ -3,7 +3,6 @@ import React, { FC, useState } from 'react';
 import { urlFor } from '@/lib/client';
 import Image from 'next/image';
 import { PostInterface } from '../../app/page';
-import Link from 'next/link';
 
 interface Props {
   post: PostInterface;
@@ -14,7 +13,7 @@ const PostCard: FC<Props> = ({ post: { image, title, header, text, hashtags } })
 
   return (
     <div>
-      <div className='w-[500px] h-fit p-[50px]'>
+      <div className='w-[380px] p-[30px] sm:w-[500px] h-fit sm:p-[50px]'>
         <Image src={urlFor(image).url()} width={400} height={200} alt='image' />
         <h1 className='text-[30px]'>{title}</h1>
         <p>{header}</p>
