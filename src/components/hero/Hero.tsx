@@ -53,7 +53,6 @@ const Hero = ({ background }: Props) => {
         </div>
       </div>
       <Navbar />
-      <Searchbar />
     </div>
   );
 };

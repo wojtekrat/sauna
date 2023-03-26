@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/posts/[slug]/pagejs", "src/app/page.js", "src/app/post/[slug]/page.js", "src/components/posts/PostCardDetails.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/posts/[slug]/pagejs", "src/app/page.js", "src/app/post/[slug]/page.js", "src/components/posts/PostCardDetails.jsx", "src/components/searchbar/Searchbar.tsx"],
   "exclude": ["node_modules"]
 }
