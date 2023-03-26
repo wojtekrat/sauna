@@ -34,7 +34,7 @@ const PostsSection: FC<PostsSectionProps> = ({ posts = [] }) => {
       </div>
       {showMore && (
         <div className='w-[100%] flex justify-center items-center mt-[10px]'>
-          <button className='border-[1px] border-orange-300 p-[10px] font-semibold hover:bg-orange-300 hover:text-white' onClick={handleShowMore}>Pokaż więcej</button>
+          <button className='border-[1px] border-orange-400 p-[10px] font-semibold hover:bg-orange-400 hover:text-white' onClick={handleShowMore}>Pokaż więcej</button>
         </div>
       )}
     </div>

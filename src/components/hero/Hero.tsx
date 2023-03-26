@@ -44,6 +44,13 @@ const Hero = ({ background }: Props) => {
             />
           ))}
         </div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div className="bg-gradient-to-r from-orange-400 via-orange-300 to-orange-400 backdrop-blur-3xl p-[20px] sm:p-[30px] rounded-md ">
+            <div className="text-white text-[30px] sm:text-[40px] font-bold flex justify-center items-center" style={{ backdropFilter: 'blur(10px)' }}>
+              <h1>SAUNOWANIE.COM.PL</h1>
+            </div>
+          </div>
+        </div>
       </div>
       <Navbar />
       <Searchbar />
