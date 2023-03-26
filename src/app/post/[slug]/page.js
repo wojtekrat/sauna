@@ -22,6 +22,13 @@ export default async function PostPage ({ params }) {
   }
   const post = await getSpecificPost()
 
+  async function getAuthor () {
+    const res = await client.fetch(`*[_type == "author" && _id == '${post.author._ref}'][0]`)
+    return res
+  }
+
+  const author = await getAuthor()
+
   if (!post) {
     return (
       <div className='w-[100%] flex justify-center items-center'>
@@ -32,7 +39,7 @@ export default async function PostPage ({ params }) {
 
   return (
     <div>
-      <PostCardDetails posts={post} />
+      <PostCardDetails posts={post} author={author} />
     </div>
   )
 }
