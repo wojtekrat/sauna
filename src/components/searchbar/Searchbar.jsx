@@ -9,7 +9,7 @@ const Searchbar = ({ categories, onCategoryChange }) => {
   };
 
   return (
-    <div>
+    <div className='flex justify-center items-center p-[5px]'>
       <label htmlFor="category" className='text-[20px]'>Wybierz kategorię postów: </label>
       <select id="category" value={selectedCategory} onChange={handleCategoryChange}>
         <option value="">Wszystkie</option>

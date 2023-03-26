@@ -1,3 +1,5 @@
+import author from './author';
+
 export default {
     name: 'post',
     title: 'Post',
@@ -38,5 +40,11 @@ export default {
             title: 'Slug',
             type: 'slug'      
         },
-    ]
+        {
+            name: 'author',
+            title: 'Author',
+            type: 'reference',
+            to: [{ type: 'author' }]
+        }
+    ],
 }
