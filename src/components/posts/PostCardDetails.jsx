@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { urlFor } from '@/lib/client';
 
 
-  const PostCardDetails = ({ posts: { image, title, header, text, hashtags, _createdAt, category,  }, author}) => {
+  const PostCardDetails = ({ posts: { image, title, header, text, hashtags, _createdAt, category  }, author}) => {
     const slicedText = text.split('@');
     const tags = hashtags.split(',')
     const dateArray = _createdAt.substring(0, 10).split('-'); 
