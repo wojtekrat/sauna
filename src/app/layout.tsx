@@ -1,12 +1,12 @@
 import './globals.css'
 import Hero from '@/components/hero/Hero'
 import Footer from '@/components/footer/Footer'
-import { client, urlFor } from '@/lib/client'
-import Image from 'next/image'
+import { client } from '@/lib/client'
 
 export const metadata = {
-  title: 'Sauna',
+  title: 'Wszystko o saunach',
   description: 'Wszystko o saunach',
+  
 }
 export interface BackgroundImages {
   _id: string;

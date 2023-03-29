@@ -7,7 +7,6 @@ const Searchbar = ({ categories, onCategoryChange }) => {
     setSelectedCategory(event.target.value);
     onCategoryChange(event.target.value);
   };
-
   return (
     <div className='flex justify-center items-center p-[5px]'>
       <label htmlFor="category" className='text-[20px]'>Wybierz kategorię postów: </label>
@@ -18,7 +17,7 @@ const Searchbar = ({ categories, onCategoryChange }) => {
             {category}
           </option>
         ))}
-      </select>
+      </select>`               `
     </div>
   );
 }

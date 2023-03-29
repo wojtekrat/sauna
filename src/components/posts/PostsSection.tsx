@@ -4,6 +4,8 @@ import Link from 'next/link';
 import PostCard from './PostCard';
 import { PostInterface } from '../../app/page';
 import Searchbar from '../searchbar/Searchbar';
+import { data } from './sauny'
+import { client } from '@/lib/client';
 
 interface PostsSectionProps {
   posts?: PostInterface[];
@@ -23,7 +25,7 @@ const PostsSection: FC<PostsSectionProps> = ({ posts = [] }) => {
       setNumPostsDisplayed(numPostsDisplayed + 6);
     } else {
       setNumPostsDisplayed(numPostsDisplayed + remainingPosts.length);
-      setShowMore(false);
+      setShowMore(false); 
     }
   };
 
@@ -34,8 +36,41 @@ const PostsSection: FC<PostsSectionProps> = ({ posts = [] }) => {
     setShowMore(filteredPosts.length > 6);
   };
 
+  async function uploadData() {
+    for (const item of data) {
+      const docId = item._id.toString();
+      const existingDoc = await client.getDocument(docId);
+      
+      if (existingDoc) {
+        await client.patch(docId)
+          .set({
+            name: item.Name,
+            address: item.Address,
+            website: item.Website,
+            facebook: item.Facebook,
+            coordinates: item.Coordinates
+          })
+          .commit();
+      } else {
+        await client.create({
+          _id: docId,
+          _type: 'saunas',
+          name: item.Name,
+          address: item.Address,
+          website: item.Website,
+          facebook: item.Facebook,
+          coordinates: item.Coordinates
+        });
+      }
+    }
+  
+    console.log('Data uploaded successfully!');
+  }
+  
+  uploadData();
+  
   return (
-    <div >
+    <div>
       <Searchbar categories={allCategories} onCategoryChange={handleCategoryChange} />
       <div className="flex flex-row flex-wrap pt-[50px]">
         {filteredPosts.slice(0, numPostsDisplayed).map((post) => (
