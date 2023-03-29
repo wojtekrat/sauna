@@ -6,8 +6,6 @@ import 'leaflet-defaulticon-compatibility'
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css'
 
 const Map = ({ sauny }) => {
-  console.log(sauny)
-
   const markers = sauny.map(sauna => {
     let position = [0, 0]
     if (sauna.coordinates) {
@@ -27,7 +25,7 @@ const Map = ({ sauny }) => {
   })
 
   return (
-    <MapContainer center={[51.0905868, 17.032120026956306]} zoom={6} scrollWheelZoom={false} className='w-[500px] h-[500px]'>
+    <MapContainer center={[51.0905868, 17.032120026956306]} zoom={6} scrollWheelZoom={true} className='w-[500px] h-[500px]'>
         <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

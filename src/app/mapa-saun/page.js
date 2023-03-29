@@ -1,31 +1,17 @@
-'use client'
-import React, { useEffect, useState } from 'react'
-import dynamic from "next/dynamic"
-import Map from '../../components/map/Map'
+import React from 'react'
 import { client } from '@/lib/client'
-
-const DynamicMap = dynamic(() => import("../../components/map/Map"), {
-  ssr: false
-})
+import MapsSection from '../../components/map/MapsSection'
 
 async function getSaunas() {
   const res = await client.fetch('*[_type == "saunas"]{name, address, coordinates}')
   return res
 }
 
-export default function SaunaMaps() {
-  const [saunas, setSaunas] = useState([])
+export default async function SaunaMaps() {
+  const saunas = await getSaunas()
 
-  useEffect(() => {
-    async function fetchData() {
-      const data = await getSaunas()
-      setSaunas(data)
-    }
-
-    fetchData()
-  }, [])
 
   return (
-    <DynamicMap sauny={saunas}/>
+    <MapsSection sauny={saunas}/>
   )
 }

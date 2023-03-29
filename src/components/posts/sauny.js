@@ -158,7 +158,7 @@ export const data =
              "Address": "Chelm, woj. lubelskie",
              "Website": "http://parkwodnychelm.pl/",
              "Facebook": "https://www.facebook.com/chelmskiparkwodny",
-             "Coordinates": null
+             "Coordinates": "50.9490059, 23.973126582228925"
         },
         {
              "_id": 21,
@@ -166,7 +166,7 @@ export const data =
              "Address": "Matcze, woj. lubelskie",
              "Website": "http://www.nadbuzanska-cisza.pl",
              "Facebook": "https://www.facebook.com/NadbuzanskaCisza",
-             "Coordinates": null
+             "Coordinates": "50.9490059, 23.973126582228925"
         },
         {
              "_id": 22,
@@ -206,7 +206,7 @@ export const data =
              "Address": "Piwniczna, woj. malopolskie",
              "Website": "https://www.hotelpiwniczna.pl/hotel-ze-spa-w-gorach",
              "Facebook": "https://www.facebook.com/HOTEL.PIWNICZNA",
-             "Coordinates": null
+             "Coordinates": "49.4317293, 20.7092473"
         },
         {
              "_id": 27,
@@ -214,7 +214,7 @@ export const data =
              "Address": "Krakow, woj. malopolskie",
              "Website": "http://www.termykrakowskie.pl/",
              "Facebook": "https://www.facebook.com/termykrakowskieforum",
-             "Coordinates": null
+             "Coordinates": "49.9945269, 19.9326144"
         },
         {
              "_id": 28,
@@ -230,7 +230,7 @@ export const data =
              "Address": "Krakow, woj. malopolskie",
              "Website": "http://www.borowinowa.pl/",
              "Facebook": "https://www.facebook.com/saunariumborowinowa",
-             "Coordinates": null
+             "Coordinates": "49.9945269, 19.9326144"
         },
         {
              "_id": 30,
@@ -238,7 +238,7 @@ export const data =
              "Address": "Studio Energia Klub Fitness Rybnik",
              "Website": "http://energia-rybnik.pl/oferta/strefa-spa",
              "Facebook": "https://www.facebook.com/fitnessenergiarybnik/",
-             "Coordinates": null
+             "Coordinates": "50.0859705, 18.5427312"
         },
         {
              "_id": 31,
@@ -246,7 +246,7 @@ export const data =
              "Address": "Tychy, woj. slaskie",
              "Website": "https://www.wodnypark.tychy.pl/atrakcje/6,strefa-saun-i-lazni-piwnych",
              "Facebook": "https://www.facebook.com/SaunyKsiazece",
-             "Coordinates": null
+             "Coordinates": "50.1030494, 18.977620772013182"
         },
         {
              "_id": 32,
