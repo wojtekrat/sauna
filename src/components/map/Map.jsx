@@ -25,7 +25,7 @@ const Map = ({ sauny }) => {
   })
 
   return (
-    <MapContainer center={[51.0905868, 17.032120026956306]} zoom={6} scrollWheelZoom={true} className='w-[500px] h-[500px]'>
+    <MapContainer center={[51.0905868, 17.032120026956306]} zoom={6} scrollWheelZoom={true} className='w-[800px] h-[800px]'>
         <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
