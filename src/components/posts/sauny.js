@@ -118,7 +118,7 @@ export const data =
              "Address": "Powstańców Śląskich 95, 50-529 Wrocław, woj. dolnośląskie",
              "Website": "http://www.fitness-academy.com.pl/pl/kluby/wroclaw/sky-tower/",
              "Facebook": "https://www.facebook.com/SpaFitnessAcademy",
-             "Coordinates": "51.10325, 17.04802"
+             "Coordinates": "51.09386235602616, 17.019882872700695"
         },
         {
              "_id": 16,

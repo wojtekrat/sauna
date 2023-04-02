@@ -31,7 +31,7 @@ const Hero = ({ background }: Props) => {
   return (
     <div>
       <div className="relative w-full h-[400px] sm:h-screen">
-        <div className="absolute top-0 left-0 w-full h-full">
+        <div className="absolute top-0 left-0 w-full h-full blur-sm border-[5px] border-orange-400">
           {background.map((item, index) => (
             <Image
               key={item._id}
@@ -45,9 +45,12 @@ const Hero = ({ background }: Props) => {
           ))}
         </div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <div className="bg-gradient-to-r from-orange-400 via-orange-300 to-orange-400 backdrop-blur-3xl p-[20px] sm:p-[30px] rounded-md ">
-            <div className="text-white text-[30px] sm:text-[40px] font-bold flex justify-center items-center" style={{ backdropFilter: 'blur(10px)' }}>
-              <h1>SAUNOWANIE.COM.PL</h1>
+          <div className=" backdrop-blur-3xl p-[20px] sm:p-[50px] rounded-md ">
+            <div className="text-white  font-bold flex justify-center items-center" style={{ backdropFilter: 'blur(10px)' }}>
+              <div className='flex flex-col justify-center items-center'>
+                <h1 className='text-[28px] sm:text-[40px]'>SAUNOWANIE.COM.PL</h1>
+                <h3 className='text-[18px] sm:text-[26px]'>WSZYSTKO O SAUNACH</h3>
+              </div>
             </div>
           </div>
         </div>

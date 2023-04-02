@@ -72,7 +72,7 @@ const PostsSection: FC<PostsSectionProps> = ({ posts = [] }) => {
   return (
     <div>
       <Searchbar categories={allCategories} onCategoryChange={handleCategoryChange} />
-      <div className="flex flex-row flex-wrap pt-[50px]">
+      <div className="flex flex-row flex-wrap pt-[50px] justify-center items-center sm:items-start sm:justify-start">
         {filteredPosts.slice(0, numPostsDisplayed).map((post) => (
           <div key={post._id}>
             <Link href={`/post/${post.slug.current}`}>
