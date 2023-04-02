@@ -3,7 +3,7 @@ import { client } from '@/lib/client'
 import MapsSection from '../../components/map/MapsSection'
 
 async function getSaunas() {
-  const res = await client.fetch('*[_type == "saunas"]{name, address, coordinates}')
+  const res = await client.fetch('*[_type == "saunas"]')
   return res
 }
 

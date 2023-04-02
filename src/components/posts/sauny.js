@@ -93,7 +93,7 @@ export const data =
              "Name": "Klub Łaźnia",
              "Address": "Puławska 119, 02-707 Warszawa, woj. mazowieckie",
              "Website": "http://www.klublaznia.pl/",
-             "Facebook": "https://www.facebook.com/spaKlubLaznia?fref=ts",
+             "Facebook": "https://www.facebook.com/spaKlubLaznia",
              "Coordinates": "52.1866931, 21.0251947"
         },
         {

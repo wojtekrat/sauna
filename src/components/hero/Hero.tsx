@@ -44,9 +44,9 @@ const Hero = ({ background }: Props) => {
             />
           ))}
         </div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <div className=" backdrop-blur-3xl p-[20px] sm:p-[50px] rounded-md ">
-            <div className="text-white  font-bold flex justify-center items-center" style={{ backdropFilter: 'blur(10px)' }}>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  ">
+          <div className=" backdrop-blur-xl p-[20px] sm:p-[50px] rounded-3xl">
+            <div className="text-white  font-bold flex justify-center items-center">
               <div className='flex flex-col justify-center items-center'>
                 <h1 className='text-[28px] sm:text-[40px]'>SAUNOWANIE.COM.PL</h1>
                 <h3 className='text-[18px] sm:text-[26px]'>WSZYSTKO O SAUNACH</h3>
