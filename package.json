@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@sanity/vision": "^3.7.1",
     "@types/node": "18.15.6",
     "@types/react": "18.0.28",

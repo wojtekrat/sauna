@@ -17,7 +17,7 @@ const SaunaList = ({ sauny }) => {
   const displayedSaunas = sauny.slice(startIndex, endIndex);
 
   return (
-    <div className='sm:mr-[10px]'>
+    <div className='mr-[10px]'>
       {displayedSaunas.map((sauna) => (
         <SaunaDetails key={sauna.name} sauna={sauna} />
       ))}

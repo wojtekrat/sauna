@@ -7,6 +7,7 @@ const DynamicMap = dynamic(() => import("../../components/map/Map"), {
   ssr: false
 })
 const MapsSection = ({ sauny }) => {
+  
   return (
     <div className='flex mt-[20px] w-[95%] m-auto justify-center flex-col md:flex-row'>
       <SaunaList sauny={sauny}/>
