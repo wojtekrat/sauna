@@ -3,7 +3,7 @@ export const data =
         {
              "_id": 1,
              "Name": "Hotel SKAL",
-             "Address": "Chrobrego 80, 78-111 Ustronie Morskie, woj. zachodniopomorskie",
+             "Address": "ul. Chrobrego 80, 78-111 Ustronie Morskie, woj. zachodniopomorskie",
              "Website": "http://www.skal-hotel.pl",
              "Facebook": "https://www.facebook.com/hotelSKAL",
              "Coordinates": "54.2169074, 15.7660192"
@@ -11,7 +11,7 @@ export const data =
         {
              "_id": 2,
              "Name": "Good Luck Club Gdańsk",
-             "Address": "Orzechowa 7, 80-175 Gdańsk, woj. pomorskie",
+             "Address": "ul. Orzechowa 7, 80-175 Gdańsk, woj. pomorskie",
              "Website": "http://www.goodluckclub.pl",
              "Facebook": "https://www.facebook.com/GoodLuckGdansk",
              "Coordinates": "54.3394678, 18.5557792"
@@ -27,7 +27,7 @@ export const data =
         {
              "_id": 4,
              "Name": "Sauna Olimpia",
-             "Address": "Gorzowska 1f, 66-460 Białcz, woj. lubuskie",
+             "Address": "ul. Gorzowska 1f, 66-460 Białcz, woj. lubuskie",
              "Website": "http://saunaolimpia.pl/",
              "Facebook": "https://www.facebook.com/SaunaOlimpiaSPA/",
              "Coordinates": "52.6759392, 14.954388614385417"
@@ -35,7 +35,7 @@ export const data =
         {
              "_id": 5,
              "Name": "Termy Maltanskie Poznań",
-             "Address": "Termalna 1, 61-028 Poznań, woj. wielkopolskie",
+             "Address": "ul. Termalna 1, 61-028 Poznań, woj. wielkopolskie",
              "Website": "http://www.termymaltanskie.com.pl",
              "Facebook": "https://www.facebook.com/termymaltanskie",
              "Coordinates": "52.4050645, 16.973338533562064"
@@ -43,15 +43,15 @@ export const data =
         {
              "_id": 6,
              "Name": "Atut Med&SPA",
-             "Address": "Toruńska 27, 62-563 Licheń Stary, woj. wielkopolskie",
+             "Address": "ul. Toruńska 27, 62-563 Licheń Stary, woj. wielkopolskie",
              "Website": "http://www.atutmed.pl",
              "Facebook": "https://www.facebook.com/atutmed/",
-             "Coordinates": "52.44322, 18.23233"
+             "Coordinates": " 52.329511249999996, 18.36499615419079"
         },
         {
              "_id": 7,
              "Name": "destresso",
-             "Address": "Pabianicka 3, 93-036 Łódź, woj. łódzkie",
+             "Address": "ul. Pabianicka 3, 93-036 Łódź, woj. łódzkie",
              "Website": "http://www.destresso.pl",
              "Facebook": "https://www.facebook.com/destressolodz",
              "Coordinates": "51.7594459, 19.4554417"
@@ -67,7 +67,7 @@ export const data =
         {
              "_id": 9,
              "Name": "Suntago",
-             "Address": "Nowy Świat 1, 96-300 Wręcza, woj. mazowieckie",
+             "Address": "ul. Nowy Świat 1, 96-300 Wręcza, woj. mazowieckie",
              "Website": "https://parkofpoland.com/pl/poznaj-park/saunaria",
              "Facebook": "https://www.facebook.com/go.Suntago",
              "Coordinates": "52.0536911, 20.4473365"
@@ -75,7 +75,7 @@ export const data =
         {
              "_id": 10,
              "Name": "Studio Sante Uzdrowisko Miejskie",
-             "Address": "Jagiellońska 55A, 03-301 Warszawa, woj. mazowieckie",
+             "Address": "ul. Jagiellońska 55A, 03-301 Warszawa, woj. mazowieckie",
              "Website": "https://www.studiosante.pl/",
              "Facebook": "https://www.facebook.com/StudioSantepl",
              "Coordinates": "52.2564579, 21.0653823"
@@ -83,7 +83,7 @@ export const data =
         {
              "_id": 11,
              "Name": "Fizjo4life",
-             "Address": "Jagiellońska 4, 03-721 Warszawa, woj. mazowieckie",
+             "Address": "ul. Jagiellońska 4, 03-721 Warszawa, woj. mazowieckie",
              "Website": "http://www.fizjo4life.pl",
              "Facebook": "https://www.facebook.com/Fizjo4life/",
              "Coordinates": "52.244742, 21.061007"
@@ -91,7 +91,7 @@ export const data =
         {
              "_id": 12,
              "Name": "Klub Łaźnia",
-             "Address": "Puławska 119, 02-707 Warszawa, woj. mazowieckie",
+             "Address": "ul. Puławska 119, 02-707 Warszawa, woj. mazowieckie",
              "Website": "http://www.klublaznia.pl/",
              "Facebook": "https://www.facebook.com/spaKlubLaznia",
              "Coordinates": "52.1866931, 21.0251947"
@@ -99,7 +99,7 @@ export const data =
         {
              "_id": 13,
              "Name": "Pałac Jugowice",
-             "Address": "Główna 4, 58-321 Jugowice, woj. dolnośląskie",
+             "Address": "ul. Główna 4, 58-321 Jugowice, woj. dolnośląskie",
              "Website": "http://www.palacjugowice.com",
              "Facebook": "https://www.facebook.com/hotelpalacjugowice",
              "Coordinates": "50.799028, 16.238319"
@@ -107,7 +107,7 @@ export const data =
         {
              "_id": 14,
              "Name": "Hotel Dębowy Biowellness & SPA",
-             "Address": "Janusza Korczaka 1, 58-260 Bielawa, woj. dolnośląskie",
+             "Address": "ul. Janusza Korczaka 1, 58-260 Bielawa, woj. dolnośląskie",
              "Website": "http://www.hoteldebowy.pl/",
              "Facebook": "https://www.facebook.com/hotel.debowy",
              "Coordinates": "50.73234, 16.61713"
@@ -115,7 +115,7 @@ export const data =
         {
              "_id": 15,
              "Name": "SPA Fitness Academy Sky Tower",
-             "Address": "Powstańców Śląskich 95, 50-529 Wrocław, woj. dolnośląskie",
+             "Address": "ul. Powstańców Śląskich 95, 50-529 Wrocław, woj. dolnośląskie",
              "Website": "http://www.fitness-academy.com.pl/pl/kluby/wroclaw/sky-tower/",
              "Facebook": "https://www.facebook.com/SpaFitnessAcademy",
              "Coordinates": "51.09386235602616, 17.019882872700695"
@@ -123,7 +123,7 @@ export const data =
         {
              "_id": 16,
              "Name": "Saunarium Centrum Ślęza",
-             "Address": "Błękitna 2, 55-040 Ślęza, woj. dolnośląskie",
+             "Address": "ul. Błękitna 2, 55-040 Ślęza, woj. dolnośląskie",
              "Website": "http://www.centrumsleza.pl/saunarium/",
              "Facebook": "https://www.facebook.com/centrumsleza",
              "Coordinates": "51.0426987, 16.98083049080846"
@@ -139,7 +139,7 @@ export const data =
         {
              "_id": 18,
              "Name": "Binkowski Resort",
-             "Address": "Wojciecha Szczepaniaka 42, 25-043 Kielce, woj. swietokrzyskie",
+             "Address": "ul. Wojciecha Szczepaniaka 42, 25-043 Kielce, woj. swietokrzyskie",
              "Website": "http://www.binkowskihotel.pl/",
              "Facebook": "https://www.facebook.com/binkowskiresort",
              "Coordinates": "50.8538568, 20.60891599300306"
@@ -147,7 +147,7 @@ export const data =
         {
              "_id": 19,
              "Name": "Spa Orkana",
-             "Address": "Szaserów 2, 20-553 Lublin, woj. lubelskie",
+             "Address": "ul. Szaserów 2, 20-553 Lublin, woj. lubelskie",
              "Website": "http://www.spaorkana.lublin.pl",
              "Facebook": "https://www.facebook.com/orkanaspa",
              "Coordinates": "51.2335044, 22.504623882718523"
@@ -155,7 +155,7 @@ export const data =
         {
              "_id": 20,
              "Name": "Chełmski Park Wodny",
-             "Address": "Lubelska 133 A, 22-100 Chełm, woj. lubelskie",
+             "Address": "ul. Lubelska 133 A, 22-100 Chełm, woj. lubelskie",
              "Website": "http://parkwodnychelm.pl/",
              "Facebook": "https://www.facebook.com/chelmskiparkwodny",
              "Coordinates": "50.9490059, 23.973126582228925"
@@ -163,7 +163,7 @@ export const data =
         {
              "_id": 21,
              "Name": "Nadbużańska Cisza. Agroturystyka nad Bugiem",
-             "Address": "Matcze 52, 22-523 Horodło, woj. lubelskie",
+             "Address": "ul. Matcze 52, 22-523 Horodło, woj. lubelskie",
              "Website": "http://www.nadbuzanska-cisza.pl",
              "Facebook": "https://www.facebook.com/NadbuzanskaCisza",
              "Coordinates": "50.9490059, 23.973126582228925"
@@ -195,7 +195,7 @@ export const data =
         {
              "_id": 25,
              "Name": "Terma Bania",
-             "Address": "Środkowa 181, 34-405 Białka Tatrzańska, woj. małopolskie",
+             "Address": "ul. Środkowa 181, 34-405 Białka Tatrzańska, woj. małopolskie",
              "Website": "https://www.termabania.pl/",
              "Facebook": "https://www.facebook.com/termabania",
              "Coordinates": "49.3875854, 20.0990188"
@@ -203,7 +203,7 @@ export const data =
         {
              "_id": 26,
              "Name": "Hedoni Spa",
-             "Address": "Gąsiorowskiego 6, 33-350 Piwniczna-Zdrój, woj. malopolskie",
+             "Address": "ul. Gąsiorowskiego 6, 33-350 Piwniczna-Zdrój, woj. malopolskie",
              "Website": "https://www.hotelpiwniczna.pl/hotel-ze-spa-w-gorach",
              "Facebook": "https://www.facebook.com/HOTEL.PIWNICZNA",
              "Coordinates": "49.4317293, 20.7092473"
@@ -211,7 +211,7 @@ export const data =
         {
              "_id": 27,
              "Name": "Termy Krakowskie Błonia",
-             "Address": "Władysława Reymonta 20, 30-062 Kraków, woj. małopolskie",
+             "Address": "ul. Władysława Reymonta 20, 30-062 Kraków, woj. małopolskie",
              "Website": "http://www.termykrakowskie.pl/",
              "Facebook": "https://www.facebook.com/termykrakowskieforum",
              "Coordinates": "49.9945269, 19.9326144"
@@ -219,7 +219,7 @@ export const data =
         {
              "_id": 28,
              "Name": "Termy Krakowskie - Sodowa 7",
-             "Address": "Sodowa 7, 30-376 Kraków, woj. małopolskie",
+             "Address": "ul. Sodowa 7, 30-376 Kraków, woj. małopolskie",
              "Website": "http://termykrakowskie.pl",
              "Facebook": "https://www.facebook.com/termykrakowskiesodowa",
              "Coordinates": "50.0338433, 19.900381"
@@ -227,7 +227,7 @@ export const data =
         {
              "_id": 29,
              "Name": "Saunarium Borowinowa",
-             "Address": "Borowinowa 2, 30-698 Kraków, woj. małopolskie",
+             "Address": "ul. Borowinowa 2, 30-698 Kraków, woj. małopolskie",
              "Website": "http://www.borowinowa.pl/",
              "Facebook": "https://www.facebook.com/saunariumborowinowa",
              "Coordinates": "49.9945269, 19.9326144"
@@ -243,7 +243,7 @@ export const data =
         {
              "_id": 31,
              "Name": "Sauny Książęce",
-             "Address": "Sikorskiego 20, 43-100 Tychy, woj. śląskie",
+             "Address": "ul. Sikorskiego 20, 43-100 Tychy, woj. śląskie",
              "Website": "https://www.wodnypark.tychy.pl/atrakcje/6,strefa-saun-i-lazni-piwnych",
              "Facebook": "https://www.facebook.com/SaunyKsiazece",
              "Coordinates": "50.1030494, 18.977620772013182"
@@ -251,7 +251,7 @@ export const data =
         {
              "_id": 32,
              "Name": "Aquadrom",
-             "Address": "Kłodnicka 95, 41-706 Ruda Śląska, woj. śląskie",
+             "Address": "ul. Kłodnicka 95, 41-706 Ruda Śląska, woj. śląskie",
              "Website": "http://www.aquadrom.pl/",
              "Facebook": "https://www.facebook.com/wsaunienigodej",
              "Coordinates": "50.2424532, 18.8439886"
@@ -259,7 +259,7 @@ export const data =
         {
              "_id": 33,
              "Name": "Termy Rzymskie Pałac Saturna",
-             "Address": "CzeladzBolesława i Władysława Dehnelów 2, 41-250 Czeladź, woj. śląskie",
+             "Address": "ul. Bolesława i Władysława Dehnelów 2, 41-250 Czeladź, woj. śląskie",
              "Website": "http://www.palacsaturna.pl/",
              "Facebook": "https://www.facebook.com/palac.saturna.termy.rzymskie?fref=ts",
              "Coordinates": "50.30823615, 19.0696131147146"
@@ -267,7 +267,7 @@ export const data =
         {
              "_id": 34,
              "Name": "AQUA fitclub",
-             "Address": "Heleny i Józefa Fików 5, 41-409 Mysłowice, woj. śląskie",
+             "Address": "ul. Heleny i Józefa Fików 5, 41-409 Mysłowice, woj. śląskie",
              "Website": "http://www.aquafitclub.pl/",
              "Facebook": "https://www.facebook.com/aquafitclub",
              "Coordinates": "50.1909675, 19.160220850723533"
@@ -275,9 +275,258 @@ export const data =
         {
              "_id": 35,
              "Name": "Aquapark Wrocław",
-             "Address": "Borowska 99, 50-558 Wrocław, woj. dolnośląskie",
+             "Address": "ul. Borowska 99, 50-558 Wrocław, woj. dolnośląskie",
              "Website": "https://aquapark.wroc.pl/",
              "Facebook": "https://www.facebook.com/AquaparkWroclaww",
              "Coordinates": "51.0905868, 17.032120026956306"
-        }
+        },
+        {
+          "_id": 36,
+          "Name": "SAUNARIUM ORBITA",
+          "Address": "ul. Wejherowska 34, 54-239 Wrocław, woj. dolnośląskie",
+          "Website": "https://spartan.wroc.pl/plywalniaorbita/sauna",
+          "Facebook": "https://www.facebook.com/spartanWCT/",
+          "Coordinates": "51.1321094, 16.9875029"
+     },
+     {
+          "_id": 37,
+          "Name": "Wrocławskie Centrum SPA Sp. z o.o.",
+          "Address": "ul. Teatralna 10-12, 50-055 Wrocław, woj. dolnośląskie",
+          "Website": "http://www.spa.wroc.pl/",
+          "Facebook": "https://www.facebook.com/WroclawskieCentrumSPA/",
+          "Coordinates": "51.10568716749554, 17.034939453005794"
+     },
+     {
+          "_id": 38,
+          "Name": "Elysium SPA & Fitness",
+          "Address": "ul. Racławicka 27, 53-149 Wrocław, woj. dolnośląskie",
+          "Website": "http://elysiumspa.pl/spa/sauna",
+          "Facebook": "https://www.facebook.com/ELYSIUMSPAWROCLAW/",
+          "Coordinates": "51.0843605, 17.00603639376948"
+     },
+     {
+          "_id": 39,
+          "Name": "Baseny Miejskie Termy Jakuba",
+          "Address": "ul. 1 Maja 33a, 55-200 Oława, woj. dolnośląskie",
+          "Website": "https://termyjakuba.olawa.pl/",
+          "Facebook": "https://www.facebook.com/TermyJakuba",
+          "Coordinates": "50.93648221969849, 17.294908538460735"
+     },
+     {
+          "_id": 40,
+          "Name": "Basen Kryty Andrychów",
+          "Address": "ul. Włókniarzy 11, 34-120 Andrychów, woj. małopolskie",
+          "Website": "https://www.moskit-andrychow.eu/",
+          "Facebook": "https://www.facebook.com/moskitandrychow.eu/",
+          "Coordinates": "49.859593200000006, 19.349567373102975"
+     },
+     {
+          "_id": 41,
+          "Name": "Aquapark Kalisz",
+          "Address": "ul. Sportowa 10, 62-800 Kalisz, woj. wielkopolskie",
+          "Website": "https://www.park-wodny.kalisz.pl/",
+          "Facebook": "https://www.facebook.com/Aquaparkkalisz",
+          "Coordinates": "51.75611305, 18.101901486325577"
+     },
+     {
+          "_id": 42,
+          "Name": "Hotel Kotarz Spa & Wellness",
+          "Address": "ul. Wyzwolenia 40, 43-438 Brenna, woj. śląskie",
+          "Website": "https://kotarz.com/",
+          "Facebook": "https://www.facebook.com/Kotarz",
+          "Coordinates": "49.7211345, 18.9158365"
+     },
+     {
+          "_id": 43,
+          "Name": "Park Wodny Orka",
+          "Address": "plac Popiełuszki 1, 59-700 Bolesławiec, woj. dolnośląskie",
+          "Website": "https://boleslawiec.eu/orka/",
+          "Facebook": "https://www.facebook.com/OrkaAquapark/",
+          "Coordinates": "51.2606626, 15.5718638"
+     },
+     {
+          "_id": 44,
+          "Name": "Radocza Park Hotel Active & Spa",
+          "Address": "ul. Parkowa 1, 34-100 Radocza, woj. małopolskie",
+          "Website": "https://www.radoczapark.pl/",
+          "Facebook": "https://www.facebook.com/RadoczaPark",
+          "Coordinates": "49.921852, 19.4529195"
+     },
+     {
+          "_id": 45,
+          "Name": "Fundacja Elektrowni Rybnik",
+          "Address": "ul. Podmiejska 47, 44-207 Rybnik, woj. śląskie",
+          "Website": "https://fundacjaelektrownirybnik.pl/",
+          "Facebook": "https://www.facebook.com/basensaunariumfundacjaelektrownirybnik/",
+          "Coordinates": "50.1291765, 18.5205385"
+     },
+     {
+          "_id": 46,
+          "Name": "Wiejska Bania Annopole",
+          "Address": "Annopole 9a, 63-000 Annopole, woj. wielkopolskie",
+          "Website": "https://wiejskabania.pl/",
+          "Facebook": "https://www.facebook.com/wiejskabania/",
+          "Coordinates": "52.208354234940415, 17.20046661794186"
+     },
+     {
+          "_id": 47,
+          "Name": "ATOL Oleśnicki Kompleks Rekreacyjny",
+          "Address": "ul. Brzozowa 7, 56-400 Oleśnica, woj. dolnośląskie",
+          "Website": "https://atol.olesnica.pl/",
+          "Facebook": "https://www.facebook.com/atol.olesnica",
+          "Coordinates": "51.216995049999994, 17.390039470611722"
+     },
+     {
+          "_id": 48,
+          "Name": "Średzki Park Wodny",
+          "Address": "ul. Winogronowa 34, 55-300 Środa Śląska, woj. dolnośląskie",
+          "Website": "https://sredzkiparkwodny.pl/",
+          "Facebook": "https://www.facebook.com/sredzkiparkwodnyoficjalnyportal",
+          "Coordinates": "51.169356, 16.6027368"
+     },
+     {
+          "_id": 49,
+          "Name": "Maloves Resort&Spa",
+          "Address": "ul. Hryniewieckiego 7B, 84-120 Władysławowo, woj. pomorskie",
+          "Website": "https://maloves.pl/",
+          "Facebook": "https://www.facebook.com/malovespl",
+          "Coordinates": "54.7989677, 18.4044593"
+     },
+     {
+          "_id": 50,
+          "Name": "Maloves Resort&Spa",
+          "Address": "ul. Hryniewieckiego 7B, 84-120 Władysławowo, woj. pomorskie",
+          "Website": "https://maloves.pl/",
+          "Facebook": "https://www.facebook.com/malovespl",
+          "Coordinates": "54.7989677, 18.4044593"
+     },
+     {
+          "_id": 51,
+          "Name": "FUME Strefa Saun i SPA",
+          "Address": "ul. Orla 37, 05-420 Józefów, woj. mazowieckie",
+          "Website": "https://fume.com.pl/",
+          "Facebook": "https://www.facebook.com/FumeStrefaSaunSPA",
+          "Coordinates": "52.12487, 21.20947"
+     },
+     {
+          "_id": 52,
+          "Name": "Core Fitness Warszawa",
+          "Address": "ul. Zamieniecka 80, 04-158 Warszawa, woj. mazowieckie",
+          "Website": "https://corefitness.com.pl/",
+          "Facebook": "https://www.facebook.com/COREFITNESSWarszawa/",
+          "Coordinates": "52.2407062, 21.1028563"
+     },
+     {
+          "_id": 53,
+          "Name": "Kryta Pływalnia Naquarius",
+          "Address": "ul. Kazimierza Wielkiego 21, 89-100 Nakło nad Notecią, woj. kujawsko-pomorskie",
+          "Website": "https://nakielskisport.pl/strona-4830-kryta_plywalnia_naquarius.html",
+          "Facebook": "https://www.facebook.com/Naquarius.Naklo/",
+          "Coordinates": "53.1412594, 17.5899641"
+     },
+     {
+          "_id": 54,
+          "Name": "Nieboczowskie SPA",
+          "Address": "ul. Jana Kochanowskiego 25, 44-360 Nieboczowy, woj. śląskie",
+          "Website": "http://www.goksir.lubomia.pl/robocze/index.php/nieboczowskie-spa/cennik-z-godzinami-otwarcia",
+          "Facebook": "https://www.facebook.com/profile.php?id=100057302325816",
+          "Coordinates": "50.0121327, 18.3435333"
+     },
+     {
+          "_id": 55,
+          "Name": "Pałac Polanka",
+          "Address": "ul. Księdza Jerzego Popiełuszki 103, 38-400 Krosno, woj. podkarpackie",
+          "Website": "https://www.palacpolanka.pl/",
+          "Facebook": "https://www.facebook.com/palacpolanka",
+          "Coordinates": "49.702444916227634, 21.724732965230945"
+     },
+     {
+          "_id": 56,
+          "Name": "Zamek Janów Podlaski",
+          "Address": "ul. Zamkowa 1, 21-505 Janów Podlaski, woj. lubelskie",
+          "Website": "https://www.zamekjanowpodlaski.pl/",
+          "Facebook": "https://www.facebook.com/zamekjanowpodlaski/",
+          "Coordinates": "52.198746835149855, 23.200721070170406"
+     },
+     {
+          "_id": 57,
+          "Name": "Hotel Mikołajki",
+          "Address": "aleja Spacerowa 11, 11-730 Mikołajki, woj. warmińsko-mazurskie",
+          "Website": "https://www.hotelmikolajki.pl/",
+          "Facebook": "https://www.facebook.com/HotelMikolajki/",
+          "Coordinates": "53.797744, 21.56900526070571"
+     },
+     {
+          "_id": 58,
+          "Name": "Strefa Odnowy i Relaksu KS Korona",
+          "Address": "ul. Kalwaryjska 9-15, 30-504 Kraków, woj. małopolskie",
+          "Website": "http://spakorona.pl/",
+          "Facebook": "https://www.facebook.com/SpaKoronaKrakow/",
+          "Coordinates": "50.0428498413371, 19.945969060063366"
+     },
+     {
+          "_id": 59,
+          "Name": "Termy BUKOVINA",
+          "Address": "ul. Sportowa 22, 34-530 Bukowina Tatrzańska, woj. małopolskie",
+          "Website": "https://www.termybukovina.pl/",
+          "Facebook": "https://www.facebook.com/TermyBUKOVINA",
+          "Coordinates": "49.325085983764815, 20.094252303242687"
+     },
+     {
+          "_id": 60,
+          "Name": "Piwnica SPA&Wellness",
+          "Address": "ul. Lwowska 4, 33-100 Tarnów, woj. małopolskie",
+          "Website": "http://www.piwnicaspa.pl/",
+          "Facebook": "https://www.facebook.com/piwnicaSPAwellness/",
+          "Coordinates": "50.01303010436269, 20.991360023617744"
+     },
+     {
+          "_id": 61,
+          "Name": "Aquapark Granit",
+          "Address": "ul. Generała Leopolda Okulickiego 10, 57-100 Strzelin, woj. dolnośląskie",
+          "Website": "http://www.aquaparkstrzelin.pl/",
+          "Facebook": "https://www.facebook.com/profile.php?id=100034992595737",
+          "Coordinates": "50.78803475, 17.071813544738866"
+     },
+     {
+          "_id": 62,
+          "Name": "Neptun",
+          "Address": "ul. Dzionkarzy 1, 44-119 Gliwice, woj. śląskie",
+          "Website": "http://neptungliwice.pl/",
+          "Facebook": "https://www.facebook.com/neptungliwice/",
+          "Coordinates": "50.28646975733038, 18.735777810215954"
+     },
+     {
+          "_id": 63,
+          "Name": "Hotel Iskierka Business & SPA",
+          "Address": "ul. Wojska Polskiego 3, 39-300 Mielec, woj. podkarpackie",
+          "Website": "https://www.hoteliskierka.com.pl/",
+          "Facebook": "https://www.facebook.com/HotelIskierka/",
+          "Coordinates": "50.308144538796945, 21.454546675086025"
+     },
+     {
+          "_id": 64,
+          "Name": "Park Wodny OLZA",
+          "Address": "Istebna 1588, 43-470 Istebna, woj. śląskie",
+          "Website": "https://istebna.org/",
+          "Facebook": "https://www.facebook.com/istebna.org",
+          "Coordinates": "49.57421472602816, 18.907798603177074"
+     },
+     {
+          "_id": 65,
+          "Name": "Hotel Novum",
+          "Address": "ul. Grunwaldzka 15H, 32-005 Niepołomice, woj. małopolskie",
+          "Website": "http://www.hotelnovum.pl/spa",
+          "Facebook": "https://www.facebook.com/HotelNovum",
+          "Coordinates": "50.032195900000005, 20.20705129712318"
+     },
+     {
+          "_id": 66,
+          "Name": "Hotel Medical SPA Unitral",
+          "Address": "ul. Piastów 6, 76-032 Mielno, woj. zachodniopomorskie",
+          "Website": "https://www.unitral.pl/",
+          "Facebook": "https://www.facebook.com/hotel.unitral.mielno/",
+          "Coordinates": "54.2602873, 16.0572234"
+     },
+
    ]
