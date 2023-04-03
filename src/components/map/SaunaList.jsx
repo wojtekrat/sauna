@@ -31,7 +31,7 @@ const SaunaList = ({ sauny }) => {
             placeholder="Wyszukaj sauny po adresie lub nazwie"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="p-2 m-1 rounded-md border border-gray-300 w-[350px] sm:w-[500px] focus:outline-none focus:border-orange-400"
+            className="p-2 m-1 shadow-md rounded-md border border-gray-300 w-[350px] sm:w-[500px] focus:outline-none focus:border-orange-400"
         />
         <div className='min-h-[650px]'>
           {displayedSaunas.map((sauna) => (

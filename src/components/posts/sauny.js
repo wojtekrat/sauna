@@ -528,5 +528,77 @@ export const data =
           "Facebook": "https://www.facebook.com/hotel.unitral.mielno/",
           "Coordinates": "54.2602873, 16.0572234"
      },
+     {
+          "_id": 67,
+          "Name": "Centrum Sportowe Wesolandia",
+          "Address": "ul. Wspólna 4, 05-075 Warszawa, woj. mazowieckie",
+          "Website": "https://www.wesolandia.pl/",
+          "Facebook": "https://www.facebook.com/CentrumSportuWesolandia",
+          "Coordinates": "52.2456344, 21.183512475459402"
+     },
+     {
+          "_id": 68,
+          "Name": "AGAVOY Sport & Relax",
+          "Address": "ul. Łyszkowicka 71, 99-400 Łowicz, woj. łódzkie",
+          "Website": "https://agavoy.pl/",
+          "Facebook": "https://www.facebook.com/Agavoy.Lowicz/",
+          "Coordinates": "52.08621544610332, 19.92713995277882"
+     },
+     {
+          "_id": 69,
+          "Name": "Ostoja Chobienice",
+          "Address": "Chobienice 166, 64-212 Chobienice, woj. wielkopolskie",
+          "Website": "https://www.ostojachobienice.pl/",
+          "Facebook": "https://www.facebook.com/ostojachobienice",
+          "Coordinates": "52.16681952391492, 15.927098616957666"
+     },
+     {
+          "_id": 70,
+          "Name": "AQUA Centrum",
+          "Address": "ul. Hallera 2, 83-400 Kościerzyna, woj. pomorskie",
+          "Website": "https://basenac.pl/",
+          "Facebook": "https://www.facebook.com/profile.php?id=100057254958063",
+          "Coordinates": "54.11975095, 17.948548694918266"
+     },
+     {
+          "_id": 71,
+          "Name": "Aqua Centrum Chełmiec",
+          "Address": "ul. Marcinkowicka 9, 33-395 Nowy Sącz, woj. małopolskie",
+          "Website": "https://www.basen.chelmiec.pl/",
+          "Facebook": "https://www.facebook.com/profile.php?id=100063835607094",
+          "Coordinates": "49.632280114878505, 20.666560605168343"
+     },
+     {
+          "_id": 72,
+          "Name": "Termy Zakopiańskie",
+          "Address": "ul. Jagiellońska 31, 34-500 Zakopane, woj. małopolskie",
+          "Website": "https://www.termy-zakopianskie.pl/",
+          "Facebook": "https://www.facebook.com/termyzakopianskie",
+          "Coordinates": "49.29514265, 19.96562532861438"
+     },
+     {
+          "_id": 73,
+          "Name": "AQUA SPA",
+          "Address": "ul. Gliwicka 11b, 44-177 Paniówki, woj. śląskie",
+          "Website": "https://spawodnik.pl/",
+          "Facebook": "https://www.facebook.com/AQUASPAPANIOWKI",
+          "Coordinates": "50.23514, 18.78165"
+     },
+     {
+          "_id": 74,
+          "Name": "Aqua Zdrój",
+          "Address": "ul. Ratuszowa 6, 58-304 Wałbrzych, woj. dolnośląskie",
+          "Website": "http://aqua-zdroj.pl/",
+          "Facebook": "https://www.facebook.com/aquazdrojwalbrzych/",
+          "Coordinates": "50.784453065497416, 16.252025440335277"
+     },
+     {
+          "_id": 75,
+          "Name": "Basen MOSiR",
+          "Address": "ul. Nacławska 84, 64-000 Kościan, woj. wielkopolskie",
+          "Website": "https://www.koscian.pl/Miejski_Osrodek_Sportu_i_Rekreacji_w_Koscianie,7971.html",
+          "Facebook": "https://www.facebook.com/mosirkoscian/",
+          "Coordinates": "52.073716450000006, 16.631148652151328"
+     },
 
    ]

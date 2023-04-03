@@ -15,13 +15,13 @@ const PostCard: FC<Props> = ({ post: { image, title, header, text, hashtags, cat
 
   return (
     <div>
-      <div className='w-[380px] p-[30px] sm:w-[500px] h-fit sm:p-[50px]'>
+      <div className='w-[340px] p-[10px] h-[580px] shadow-md m-3 flex flex-col items-center'>
         <Image src={urlFor(image).url()} width={400} height={200} alt='image' />
-        <h1 className='text-[30px]'>{title}</h1>
-        <p>{header}</p>
-        <p className='mt-[10px]'>Kategoria: {category}</p>
-        <p className='mt-[10px] font-semibold'>{tags}</p>
-        <p className='mt-[5px]'>Data: {data}</p>
+        <h1 className='text-[24px]'>{title}</h1>
+        <p className='text-[14px]'>{header}</p>
+        <p className='mt-[10px] text-[14px]'>Kategoria: {category}</p>
+        <p className='mt-[10px] font-semibold text-[14px]'>{tags}</p>
+        <p className='mt-[5px] text-[14px]'>Data: {data}</p>
       </div>
     </div>
   );

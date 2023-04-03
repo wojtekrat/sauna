@@ -10,7 +10,7 @@ import { urlFor } from '@/lib/client';
     const data = `${dateArray[2]}-${dateArray[1]}-${dateArray[0]}`;
   return (
     <div className='w-[90%] m-auto flex justify-center items-center mt-[50px]'>
-        <div className='flex flex-col md:flex-row md:w-[1000px]'>
+        <div className='flex flex-col md:flex-row md:w-[1000px] p-4 shadow-md'>
             <div className='flex flex-col justify-center items-center md:justify-start md:items-start'>
                 <Image className='w-[400px] h-[300px]' src={urlFor(image).url()} alt='image' width={500} height={300}></Image>
                 <p className='pt-[10px] font-semibold'>Kategoria: {category}</p>

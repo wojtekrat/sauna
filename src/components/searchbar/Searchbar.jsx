@@ -1,15 +1,19 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 const Searchbar = ({ categories, onCategoryChange }) => {
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState('');
 
   const handleCategoryChange = (event) => {
-    setSelectedCategory(event.target.value);
-    onCategoryChange(event.target.value);
+    const selectedValue = event.target.value;
+    setSelectedCategory(selectedValue);
+    onCategoryChange(selectedValue);
   };
+
   return (
-    <div className='flex justify-center items-center p-[5px]'>
-      <label htmlFor="category" className='text-[20px]'>Wybierz kategorię postów: </label>
+    <div className="flex justify-center items-center p-[5px]">
+      <label htmlFor="category" className="text-[20px]">
+        Wybierz kategorię postów:
+      </label>
       <select id="category" value={selectedCategory} onChange={handleCategoryChange}>
         <option value="">Wszystkie</option>
         {categories.map((category) => (
@@ -17,9 +21,9 @@ const Searchbar = ({ categories, onCategoryChange }) => {
             {category}
           </option>
         ))}
-      </select>`               `
+      </select>
     </div>
   );
-}
+};
 
-export default Searchbar
+export default Searchbar;
