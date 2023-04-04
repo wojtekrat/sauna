@@ -72,7 +72,7 @@ const PostsSection: FC<PostsSectionProps> = ({ posts = [] }) => {
   return (
     <div>
       <Searchbar categories={allCategories} onCategoryChange={handleCategoryChange} />
-      <div className="flex flex-row flex-wrap pt-[50px] justify-center items-center">
+      <div className="flex flex-row flex-wrap pt-[20px] justify-center items-center">
         {filteredPosts.slice(0, numPostsDisplayed).map((post) => (
           <div key={post._id}>
             <Link href={`/post/${post.slug.current}`}>
@@ -82,7 +82,7 @@ const PostsSection: FC<PostsSectionProps> = ({ posts = [] }) => {
         ))}
       </div>
       {showMore && (
-        <div className="w-[100%] flex justify-center items-center mt-[10px]">
+        <div className="w-[100%] flex justify-center items-center mt-[50px]">
           <button className="border-[1px] border-orange-400 p-[10px] font-semibold hover:bg-orange-400 hover:text-white" onClick={handleShowMore}>
             Pokaż więcej
           </button>

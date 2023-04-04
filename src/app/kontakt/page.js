@@ -43,7 +43,7 @@ const ContactMe = () => {
 
   return (
     <div className='m-auto w-[100%] sm:w-[80%] mt-[20px] md:mt-[40px] flex md:flex-row flex-wrap items-center justify-center '>
-        <div className='bg-orange-400 h-fit w-fit p-5 rounded-xl z-8 sm:mb-[0px] relative'>
+        <div className='bg-orange-400 h-fit w-fit p-5 rounded-xl z-8 sm:mb-[0px] relative shadow-md'>
                 <div className='text-[20px] md:text-[30px] text-white'>
                   <h2 className='font-bangers'>
                     Masz pytania?
@@ -51,14 +51,14 @@ const ContactMe = () => {
                 </div>
                 <div>
                     <form className='flex flex-col w-[300px]' ref={formRef} onSubmit={handleSubmit}>
-                        <label className='flex flex-col'>Twoje imię:
-                        <input className='' placeholder='Twoje imię' type='name' name='name' value={form.name} onChange={handleChange} ></input>
+                        <label className='flex flex-col text-white'>Twoje imię:
+                        <input className='text-black' placeholder='Twoje imię' type='name' name='name' value={form.name} onChange={handleChange} ></input>
                         </label>
-                        <label className='flex flex-col'>Twój email:
-                        <input className='' placeholder='Twój email' type='email' name='email' value={form.email} onChange={handleChange}></input>
+                        <label className='flex flex-col text-white'>Twój email:
+                        <input className='text-black' placeholder='Twój email' type='email' name='email' value={form.email} onChange={handleChange}></input>
                         </label>
-                        <label className='flex flex-col'>Treść:
-                        <textarea rows="7" name="message" value={form.message} className='p-2 m-2 text-white resize-none' placeholder='Treść wiadomości' onChange={handleChange}></textarea>
+                        <label className='flex flex-col text-white'>Treść:
+                        <textarea rows="7" name="message" value={form.message} className='p-2 m-2 resize-none' placeholder='Treść wiadomości' onChange={handleChange}></textarea>
                         </label>
                         <button type='submit' className='text-white p-2 m-2 bg-orange-300 w-[290px] hover:text-white hover:bg-orange-600'>Wyślij wiadomość</button>
                     </form>

@@ -15,7 +15,7 @@ const PostCard: FC<Props> = ({ post: { image, title, header, text, hashtags, cat
 
   return (
     <div>
-      <div className='w-[340px] p-[10px] h-[580px] shadow-md m-3 flex flex-col items-center'>
+      <div className='w-[340px] p-[10px] h-[580px] shadow-md m-3 flex flex-col items-center bg-white'>
         <Image src={urlFor(image).url()} width={400} height={200} alt='image' />
         <h1 className='text-[24px]'>{title}</h1>
         <p className='text-[14px]'>{header}</p>

@@ -10,8 +10,8 @@ const Searchbar = ({ categories, onCategoryChange }) => {
   };
 
   return (
-    <div className="flex justify-center items-center p-[5px]">
-      <label htmlFor="category" className="text-[20px]">
+    <div className="flex justify-center items-center p-[5px] bg-white shadow-md w-[100%]">
+      <label htmlFor="category" className="text-[16px]">
         Wybierz kategorię postów:
       </label>
       <select id="category" value={selectedCategory} onChange={handleCategoryChange}>
